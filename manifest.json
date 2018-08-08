@@ -1,0 +1,22 @@
+{
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "Night Owl"
+	},
+	"content_scripts": [{
+		"all_frames": true,
+		"js": [“popup.js"],
+		"matches": ["<all_urls>"],
+		"match_about_blank": true,
+		"run_at": "document_start"
+	}],
+	"description": "To help reduce strain on eyes at night",
+
+	"manifest_version": 2,
+	"name": "Night Owl",
+	"permissions": ["notifications", "unlimitedStorage", "downloads", "storage", "contextMenus", "tabs"],
+	"version": "1.8.0"
+
+}
