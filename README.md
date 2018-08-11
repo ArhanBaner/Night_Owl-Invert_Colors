@@ -6,3 +6,5 @@ This simple Google Chrome extension takes the RGB values of the webpage and calc
 
 ### Images
 
+<img src = "images/Before.png" width = "950">
+<img src = "images/After.png" width = "950">
